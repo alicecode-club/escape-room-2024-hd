@@ -1,0 +1,11 @@
+html{
+	background-image: url("grass.png");
+	background-size:100vw 100vh;
+}
+#casle{
+    width: 300px;
+    height: 550px;  
+    position: absolute;
+    top: 500vh;
+    left: 200vw;
+}
