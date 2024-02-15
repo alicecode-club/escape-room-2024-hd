@@ -7,3 +7,8 @@ body {
 #headline {
   font-family: 'Protest Revolution', sans-serif;
 }
+
+#lamp {
+  display: flex;
+  justify-content: center;
+}
