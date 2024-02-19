@@ -1,0 +1,12 @@
+html{
+	background-image: url("Background.jpg");
+	background-size:100vw 100vh;
+}
+
+#flower{
+	position: absolute;
+top: 78vh;
+left: 10vw;
+width: 110px;
+cursor: pointer;
+}
