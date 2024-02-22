@@ -1,0 +1,9 @@
+body {
+    background-image: url("outside_castle.png");
+    background-size: 100vw 100vh;
+}
+
+#writing {
+    color: #fffce1;
+    
+}
