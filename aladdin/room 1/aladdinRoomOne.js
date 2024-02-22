@@ -1,5 +1,5 @@
 function showMessage(){
-    document.getElementById("lamp").setAttribute("onclick", null)
+    document.getElementById("lamp").setAttribute("onclick", null);
     document.getElementById("lamp").style.cursor="auto";
     window.alert("You will be asked two questions, every time you'll answer a question currectly you would get closer to saving Aladdin from Jafar.")
     let correct = false;
@@ -29,8 +29,9 @@ function showMessage(){
 
 
 function nextRoom(){
-    document.getElementById("genie").setAttribute("onclick", null)
+    document.getElementById("genie").setAttribute("onclick", null);
     document.getElementById("genie").style.cursor="auto";
 
-    alert("Hi! It's the Genie! Thank you for helping me on this mission, you solved the first riddle, but the journey is not over yet! Hope you are ready for the next riddle!")
+    alert("Hi! It's the Genie! Thank you for helping me on this mission, you solved the first riddle, but the journey is not over yet! Hope you are ready for the next riddle!");
+    window.location.href = "aladdinRoomTwo.png"
 }
