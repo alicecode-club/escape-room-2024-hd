@@ -1,7 +1,12 @@
-#flower{
+#StoneWall{
+	width: 100%;
+	height: 705px;
+}
+
+#arrow{
 	position: absolute;
-top: 78vh;
-left: 10vw;
+top: 65vh;
+left: 77vw;
 width: 110px;
 cursor: pointer;
 }
