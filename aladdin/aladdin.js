@@ -28,3 +28,9 @@ function showMessage(){
 }
 
 
+function nextRoom(){
+    document.getElementById("genie").setAttribute("onclick", null)
+    document.getElementById("genie").style.cursor="auto";
+
+    alert("Hi! It's the Genie! Thank you for helping me on this mission, you solved the first riddle, but the journey is not over yet! Hope you are ready for the next riddle!")
+}
