@@ -12,6 +12,7 @@
 }
 
 #arrow2{
+	visibility: hidden;
 	position: absolute;
 	top: 55vh;
 	left: 67vw;
@@ -20,6 +21,7 @@
 }
 
 #arrow3{
+	visibility: hidden;
 	position: absolute;
 	top: 45vh;
 	left: 60vw;
@@ -28,25 +30,28 @@
 }
 
 #arrow4{
+	visibility: hidden;
 	position: absolute;
-top: 35vh;
-left: 55vw;
-width: 110px;
-cursor: pointer;
-}
+	top: 35vh;
+	left: 55vw;
+	width: 110px;
+	cursor: pointer;
+	}
 
 #arrow5{
+	visibility: hidden;
 	position: absolute;
-top: 20vh;
-left: 50vw;
-width: 110px;
-cursor: pointer;
+	top: 20vh;
+	left: 50vw;
+	width: 110px;
+	cursor: pointer;
 }
 
 #arrow6{
+	visibility: hidden;
 	position: absolute;
-top: 3vh;
-left: 55vw;
-width: 110px;
-cursor: pointer;
+	top: 3vh;
+	left: 55vw;
+	width: 110px;
+	cursor: pointer;
 }
