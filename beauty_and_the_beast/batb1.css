@@ -1,3 +1,9 @@
 body {
-    background-image: "beauty_and_the_beast/beauty_and_the_beast_pics/outside_castle.png";
+    background-image: url("outside_castle.png");
+    background-size: 100vw 100vh;
+}
+
+#writing {
+    color: #fffce1;
+    
 }
