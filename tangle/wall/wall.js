@@ -1,4 +1,4 @@
 function ArrowClick(){
-    var div = document.getElementById("game-board");
-    div.innerHTML = ``
+    var arrow2 = document.getElementById("arrow2");
+    arrow2.style.visibility="hidden";
 }
