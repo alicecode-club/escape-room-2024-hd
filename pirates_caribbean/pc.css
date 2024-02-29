@@ -1,8 +1,5 @@
-body{
+html{
     background-image: url("pc_image.webp");
-    /*background-size:100vw 100vh;*/
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    left: 0;
+    background-size:100vw 100vh;
+    
 }
