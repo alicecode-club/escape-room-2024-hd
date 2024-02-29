@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aladdin</title>
-    <link rel="stylesheet" href="aladdin.css">
+    <link rel="stylesheet" href="aladdinRoomOne.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
@@ -15,14 +15,23 @@
 
 <body>
     <h1 style="text-align:center;" id="headline">The Aladdin Riddle</h1>
-    <h4 style="text-align:center;">Jafar imprisoned Aladdin in a cave. The player joins Jasmine and the Genie's journey to save him. In order to enter the cave and free Aladdin, you need to answer two questions.</h4>
+    <h4 style="text-align:center;">Jafar kidnapped Aladdin. The player joins Jasmine and the Genie's journey to save him. In order to enter the cave and free Aladdin, you need to solve some riddles.</h4>
     <h4 style="text-align:center;">Click on the lamp to begin!</h4>
     <br>
 
     <center>
-        <!-- <img id="lamp" src="lamp.png" alt="aladdin lamp" width="200" height="100"  type="submit" onclick="onclick()"> -->
-        <input type="image" src="lamp.png" height="100px" width="200px" alt="submit" onclick="showMessage()"/>
+        <input type="image" src="lamp.png" height="100px" width="200px" alt="submit" id="lamp" onclick="showMessage()"/>
+        <div id="one"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input align="left" type="image" src="The_Genie_Aladdin.png" height="300px" width="340px" alt="submit" id="genie" style="display: none;" onclick="nextRoom()"/>
+
     </center>
 </body>
-<script src="aladdin.js"></script>
+<script src="aladdinRoomOne.js"></script>
 </html>
