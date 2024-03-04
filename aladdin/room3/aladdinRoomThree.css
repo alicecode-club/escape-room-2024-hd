@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://mrwallpaper.com/images/hd/aladdin-cave-of-wonders-zbjja31fdy0bn2il.jpg');
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+#headline {
+  font-family: 'Protest Revolution', sans-serif;
+}
+
+#lamp {
+  display: flex;
+  justify-content: center;
+}
