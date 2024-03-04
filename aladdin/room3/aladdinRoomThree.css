@@ -1,14 +1,23 @@
 body {
-    background-image: url('https://mrwallpaper.com/images/hd/aladdin-cave-of-wonders-zbjja31fdy0bn2il.jpg');
+    
+    background-image: url('bgCave.jpg');
     color: white;
     font-family: 'Cormorant Garamond', serif;
   }
 
-#headline {
+#headline3 {
   font-family: 'Protest Revolution', sans-serif;
 }
 
 #lamp {
   display: flex;
   justify-content: center;
+}
+
+#anj {
+    background-image: url('aladdinCagedAndJafar.png');
+    position: absolute;
+    top: 45%;
+    left: 15%;
+
 }
