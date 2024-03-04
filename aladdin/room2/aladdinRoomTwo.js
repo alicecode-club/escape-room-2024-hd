@@ -4,4 +4,5 @@ function wrongMessage(){
 
 function madeIt(){
     alert("You made it! Well done!")
+    window.location.href = "../room3/aladdinRoomThree.html";
 }
