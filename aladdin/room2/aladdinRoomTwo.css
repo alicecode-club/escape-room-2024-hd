@@ -35,10 +35,29 @@ body {
     height: 20px;
 }
 
+#d4 {
+    position: absolute;
+    right: 70%;
+    left: 14%;
+    top: 80%;
+    width: 20px;
+    height: 20px;
+}
+
+#d5 {
+    position: absolute;
+    right: 10%;
+    left: 54%;
+    top: 70%;
+    width: 20px;
+    height: 20px;
+}
+
 #goodDiamond {
     position: absolute;
-    right: 20%;
+    right: 30%;
     left: 24%;
+    top: 50%;
     width: 20px;
     height: 20px;
 }
