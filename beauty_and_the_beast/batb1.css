@@ -6,3 +6,9 @@ body {
 #writing {
     color: #fffce1; 
 }
+
+#host {
+    top: 55%;
+    right: 10%;
+    position: absolute;
+}
