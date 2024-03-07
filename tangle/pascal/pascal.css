@@ -2,3 +2,41 @@ html{
 	background-image: url("inside_tower.jpg");
 	background-size:100vw 100vh;
 }
+
+#green{
+    position: absolute;
+	top: 45vh;
+	left: 70vw;
+	width: 110px;
+	cursor: pointer;
+}
+
+#pink{
+    visibility: hidden;
+    position: absolute;
+	top: 45vh;
+	left: 70vw;
+	width: 110px;
+	cursor: pointer;
+}
+
+#blue{
+    visibility: hidden;
+    position: absolute;
+	top: 45vh;
+	left: 70vw;
+	width: 110px;
+	cursor: pointer;
+}
+
+#red{
+    visibility: hidden;
+    position: absolute;
+	top: 45vh;
+	left: 70vw;
+	width: 110px;
+	cursor: pointer;
+}
+
+
+
