@@ -33,16 +33,4 @@ function bossLevel(){
     
     }
     }
-    // let bossQuest = prompt("How many camels does Prince Ali, or should I say Aladdin, have?");
-    //     if (bossQuest === "75"){
-    //         alert("You made it! Aladdin is free!")
-    //     }
-    
-    //     else {
-    //         time=time+1;
-    //         console.log(time)
-    //         question(time)
-    //     }
-    
-    // }
 
