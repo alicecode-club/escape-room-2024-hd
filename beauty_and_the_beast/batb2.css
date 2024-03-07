@@ -2,3 +2,45 @@ body {
     background-image: url("first_floor_dinninghall.jpg");
     background-size: 100vw 100vh;
 }
+
+#teapot1 {
+    width: 3%;
+    top: 78%;
+    right: 29.7%;
+    position: absolute;
+}
+
+#teapot2 {
+    width: 3%;
+    top: 82.5%;
+    right: 84%;
+    position: absolute;
+}
+
+#lumiere1 {
+    width: 3.5%;
+    top: 76%;
+    right: 5.5%;
+    position: absolute;
+}
+
+#lumiere2 {
+    width: 3.5%;
+    top: 71%;
+    right: 79%;
+    position: absolute;
+}
+
+#chip1 {
+    width: 2%;
+    top: 52%;
+    right: 25%;
+    position: absolute;
+}
+
+#chip2 {
+    width: 2.5%;
+    top: 35%;
+    right: 90%;
+    position: absolute;
+}
