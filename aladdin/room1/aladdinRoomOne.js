@@ -9,14 +9,14 @@ function showMessage(){
 
 
     while (correct==false){
-        let firstQuest = prompt("When Aladdin promises to free him, which Disney character does Genie turn into?");
-        if (firstQuest === "Pinocchio") {
+        let firstQuest = prompt("What animal does Jasmine have?");
+        if (firstQuest === "Tiger") {
             genie.style.display = "block";
             window.alert("Well Done!")
             correct = true;
             while (correct2==false){
-                let secondQuest = prompt("How many golden camels does prince Ali have?");
-                if (secondQuest === "75") {
+                let secondQuest = prompt("What is his name??");
+                if (secondQuest === "Raga") {
                     window.alert("You solved the first riddle! Click on the genie for the next one!")
                     correct2 = true;
                 }      
