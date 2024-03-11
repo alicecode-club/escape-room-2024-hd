@@ -1,0 +1,12 @@
+body {
+    background-image: url("castle_stairs.jpg");
+    background-size: 100vw 100vh;
+}
+
+#belle {
+    width: 9%;
+    bottom: 0%;
+    /* top: 61%; */
+    right: 25%;
+    position: absolute;
+}
