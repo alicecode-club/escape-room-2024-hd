@@ -13,7 +13,7 @@ function checkteacup(id){
         teacup2 = 1
     }
     if (teacup1 == 1 && teacup2 == 1){
-        alert("Who is the only princess that is based on a real life person?")
+        prompt("Who is the only princess that is based on a real life person?")
         //  Pocahontas
     }
     console.log(id)
