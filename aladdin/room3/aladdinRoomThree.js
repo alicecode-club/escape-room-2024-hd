@@ -7,7 +7,7 @@ function bossLevel(){
 
     function question(time){
         if (time===2){
-            alert("here's a clue: the range is between 65 to 80")
+            alert("here's a clue: the range is between 70 to 80")
         }
         if (time===3){
             alert("I'm sorry, but you did not manage to free aladdin")
@@ -16,7 +16,7 @@ function bossLevel(){
     }
 
     while (true){
-        let bossQuest = prompt("How many camels does Prince Ali, or should I say Aladdin, have?");
+        let bossQuest = prompt("How many golden camels does Prince Ali, or should I say Aladdin, have?");
         if (bossQuest === "75"){
             alert("You made it! Aladdin is free!")
             window.location.href = "../room4final/aladdinRoomFour.html";
@@ -28,6 +28,7 @@ function bossLevel(){
             console.log(time)
             var a= question(time)
             if (a===-1){
+                window.location.href = "../room4final2/aladdinRoomFour2.html";
                 break
             }
         }
