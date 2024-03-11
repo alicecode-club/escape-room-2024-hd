@@ -67,3 +67,28 @@ header.innerHTML =
         }
     }
 </style>`
+function logoutfun() {
+    window.location.href="logout.html";
+}
+
+function aboutmefun() {
+    window.location.href="aboutme.html";
+}
+
+function homepagefun() {
+    window.location.href="homepage.html";
+}
+
+function contantfun() {
+    window.location.href=".html";
+}
+
+function logfun() {
+    window.location.href="../index.html";
+}
+
+function showMenu() {
+    let header = document.getElementById("buttonsclick")
+    header.classList.toggle("responsive")
+}
+
