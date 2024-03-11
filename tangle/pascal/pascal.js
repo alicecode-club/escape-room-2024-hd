@@ -2,14 +2,11 @@ var colors=["green.png","pink.jpg","green.png","blue.jpg","pink.jpg", "red.jpg",
 let counter = 0;
 let intervalId;
 function greenClick(){
-        var change=document.getElementById("change")
+        var change=document.getElementById("change");
         change.src=colors[counter];
         counter++;
-        if(counter == 7){
+        if(counter == 6){
             clearInterval(intervalId);
-            change.removeEventListener('click', greenClick);
         }
     }
-    function change(){intervalId=setInterval(greenClick, 1000);
-}
-    
+    function change(){intervalId=setInterval(greenClick, 1000);}
