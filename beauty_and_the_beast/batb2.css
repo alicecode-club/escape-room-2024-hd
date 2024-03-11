@@ -3,6 +3,14 @@ body {
     background-size: 100vw 100vh;
 }
 
+#belle {
+    width: 13%;
+    bottom: 0%;
+    /* top: 61%; */
+    right: 42%;
+    position: absolute;
+}
+
 #teapot1 {
     width: 3%;
     top: 78%;
