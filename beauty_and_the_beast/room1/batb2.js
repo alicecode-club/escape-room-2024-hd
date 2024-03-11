@@ -13,10 +13,16 @@ function checkteacup(id){
         teacup2 = 1
     }
     if (teacup1 == 1 && teacup2 == 1){
-        prompt("Who is the only princess that is based on a real life person?")
+        var answer1 = prompt("Who is the only princess that is based on a real life person?")
+        if (answer1 === "Pocahontas"){
+            console.log("goodjob")
+        }
+        else{
+            console.log("try again")
+        }
         //  Pocahontas
     }
-    console.log(id)
+    // console.log(id)
 }
 
 function checklumiere(id){
