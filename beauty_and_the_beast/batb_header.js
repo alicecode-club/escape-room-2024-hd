@@ -3,11 +3,11 @@ header.innerHTML =
 `<div id="topbaner">
 <a href="batb1/html" id="webname">The beauty and yhe beast</a>
 <div align="center" id="buttonsclick">
-    <button onclick="logfun()" id="logbutton" class="webuttons">Login Page</button>
-    <button onclick="contantfun()" id="contantbutton" class="webuttons">Contant</button>
-    <button onclick="homepagefun()" id="hpbutton" class="webuttons">Homepage</button>
-    <button onclick="aboutmefun()" id="ambutton" class="webuttons">About Me</button>
-    <button onclick="logoutfun()" id="lobutton" class="webuttons">Logout</button>
+    // <button onclick="no()" id="clue1" class="clues">clue1</button>
+    <button onclick="no()" id="clue2" class="clues">clue2</button>
+    <button onclick="no()" id="clue3" class="clues">clue3</button>
+    <button onclick="no()" id="clue4" class="clues">clue4</button>
+    <button onclick="no()" id="clue5" class="clues">clue5</button>
 </div>
 <style>
     #webname {
