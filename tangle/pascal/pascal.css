@@ -11,6 +11,21 @@ html{
 	cursor: pointer;
 }
 
+#lock{
+	position: absolute;
+	top: 40vh;
+	left: 25vw;
+	width: 60px;
+	cursor: pointer;
+}
 
+#lock2{
+	visibility: hidden;
+	position: absolute;
+	top: 40vh;
+	left: 25vw;
+	width: 60px;
+	cursor: pointer;
+}
 
 
