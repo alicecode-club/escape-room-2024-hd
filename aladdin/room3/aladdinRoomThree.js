@@ -19,6 +19,7 @@ function bossLevel(){
         let bossQuest = prompt("How many camels does Prince Ali, or should I say Aladdin, have?");
         if (bossQuest === "75"){
             alert("You made it! Aladdin is free!")
+            window.location.href = "../room4final/aladdinRoomFour.html";
             break
         }
     
