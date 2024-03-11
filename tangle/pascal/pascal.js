@@ -10,4 +10,6 @@ function greenClick(){
             change.removeEventListener('click', greenClick);
         }
     }
-    intervalId=setInterval(greenClick, 1000);
+    function change(){intervalId=setInterval(greenClick, 1000);
+}
+    
