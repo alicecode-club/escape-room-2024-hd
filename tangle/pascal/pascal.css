@@ -3,7 +3,7 @@ html{
 	background-size:100vw 100vh;
 }
 
-#green{
+#change{
     position: absolute;
 	top: 45vh;
 	left: 70vw;
@@ -11,32 +11,21 @@ html{
 	cursor: pointer;
 }
 
-#pink{
-    visibility: hidden;
-    position: absolute;
-	top: 45vh;
-	left: 70vw;
-	width: 110px;
+#lock{
+	position: absolute;
+	top: 40vh;
+	left: 25vw;
+	width: 60px;
 	cursor: pointer;
 }
 
-#blue{
-    visibility: hidden;
-    position: absolute;
-	top: 45vh;
-	left: 70vw;
-	width: 110px;
+#lock2{
+	visibility: hidden;
+	position: absolute;
+	top: 40vh;
+	left: 25vw;
+	width: 60px;
 	cursor: pointer;
 }
-
-#red{
-    visibility: hidden;
-    position: absolute;
-	top: 45vh;
-	left: 70vw;
-	width: 110px;
-	cursor: pointer;
-}
-
 
 
