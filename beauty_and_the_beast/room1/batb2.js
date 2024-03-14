@@ -53,7 +53,7 @@ function checkteapot(id){
         teapot2 = 1
     }
     if (teapot1 == 1 && teapot2 == 1){
-        var answer3= prompt("When is Walt Disney's birth date?")
+        var answer3= prompt("When is Walt Disney's birth date? (like: April 13 2009)")
         if (answer3 === "December 5 1901"){
             console.log("goodjob")
         }
