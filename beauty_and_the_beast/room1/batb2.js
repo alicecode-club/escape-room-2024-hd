@@ -33,7 +33,13 @@ function checklumiere(id){
         lumiere2 = 1
     }
     if (lumiere1 == 1 && lumiere2 == 1){
-        alert("What was the first animated full-length film?")
+        var answer2= prompt("What was the first animated full-length film?")
+        if (answer2 === "Snow White and the Seven Dwarfs"){
+            console.log("goodjob")
+        }
+        else{
+            console.log("try again")
+        }
         //  Snow White and the Seven Dwarfs
     }
     console.log(id)
@@ -47,7 +53,13 @@ function checkteapot(id){
         teapot2 = 1
     }
     if (teapot1 == 1 && teapot2 == 1){
-        alert("When is Walt Disney's birth date?")
+        var answer3= prompt("When is Walt Disney's birth date?")
+        if (answer3 === "December 5 1901"){
+            console.log("goodjob")
+        }
+        else{
+            console.log("try again")
+        }
         //  December 5 1901
     }
     console.log(id)
