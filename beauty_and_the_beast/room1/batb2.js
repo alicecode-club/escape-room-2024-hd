@@ -26,6 +26,7 @@ function checkteacup(id){
                 document.getElementById("chip1").style.display="none"
                 document.getElementById("chip2").style.display="none"
                 finished1 = true
+                finished_questions()
                 break
             }
             else{
@@ -54,6 +55,7 @@ function checklumiere(id){
                 document.getElementById("lumiere1").style.display="none"
                 document.getElementById("lumiere2").style.display="none"
                 finished2 = true
+                finished_questions()
                 break
             }
             else{
@@ -82,6 +84,7 @@ function checkteapot(id){
                 document.getElementById("teapot1").style.display="none"
                 document.getElementById("teapot2").style.display="none"
                 finished3 = true
+                finished_questions()
                 break
             }
             else{
@@ -92,7 +95,9 @@ function checkteapot(id){
     }
     console.log(id)
 }
-
-if (finished1 == true && finished2 == true && finished3 == true){
-    window.location.href="batb3.html";
+function finished_questions(){
+    if (finished1 == true && finished2 == true && finished3 == true){
+        window.location.href="../batb3.html";
+        console.log("hdhdhh")
+    }
 }

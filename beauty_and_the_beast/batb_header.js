@@ -1,7 +1,7 @@
 let header = document.getElementById("");
 header.innerHTML =
 `<div id="topbaner">
-<a href="batb1/html" id="webname">The beauty and yhe beast</a>
+<a href="batb1/html" id="webname">The beauty and the beast</a>
 <div align="center" id="buttonsclick">
     // <button onclick="no()" id="clue1" class="clues">clue1</button>
     <button onclick="no()" id="clue2" class="clues">clue2</button>
