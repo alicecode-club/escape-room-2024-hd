@@ -48,9 +48,11 @@ function checklumiere(id){
 function checkteapot(id){
     if (id=="teapot1"){
         teapot1 = 1
+        document.getElementById("teapot1").style.display = "none"
     }
     if (id=="teapot2"){
         teapot2 = 1
+        document.getElementById("teapot2").style.display = "none"
     }
     if (teapot1 == 1 && teapot2 == 1){
         var answer3= prompt("When is Walt Disney's birth date? (like: April 13 2009)")
