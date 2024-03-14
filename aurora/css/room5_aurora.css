@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("../images/room5_aurora.webp");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.speech_bubbles{
+    position: absolute;
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    left: 20%;
+    top: 20%;
+    background: #fff;
+    
+
+}
+
+.speech_bubble_1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 60px solid #fff;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    top: 50%;
+    left:80%;
+
+}
+
+.room2_button{
+    width: 100px;
+    height: 50px;
+    background-color: #13aa52;
+    border: solid #13aa52;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 25px;
+    text-align: center;
+    margin-top: 700px;
+    margin: 0;
+    position: absolute;
+    
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
