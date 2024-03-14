@@ -1,7 +1,7 @@
 let header = document.getElementById("");
 header.innerHTML =
 `<div id="topbaner">
-<a href="batb1/html" id="webname">The beauty and the beast</a>
+<a href="batb1/html" id="webname">The beauty and yhe beast</a>
 <div align="center" id="buttonsclick">
     // <button onclick="no()" id="clue1" class="clues">clue1</button>
     <button onclick="no()" id="clue2" class="clues">clue2</button>
@@ -67,3 +67,28 @@ header.innerHTML =
         }
     }
 </style>`
+function logoutfun() {
+    window.location.href="logout.html";
+}
+
+function aboutmefun() {
+    window.location.href="aboutme.html";
+}
+
+function homepagefun() {
+    window.location.href="homepage.html";
+}
+
+function contantfun() {
+    window.location.href=".html";
+}
+
+function logfun() {
+    window.location.href="../index.html";
+}
+
+function showMenu() {
+    let header = document.getElementById("buttonsclick")
+    header.classList.toggle("responsive")
+}
+
