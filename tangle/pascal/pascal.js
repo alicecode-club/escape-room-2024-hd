@@ -1,6 +1,9 @@
 var colors=["green.png","pink.jpg","green.png","blue.jpg","pink.jpg", "red.jpg", "blue.jpg"];
 let counter = 0;
 let intervalId;
+let counter_for_colors=0;
+let correct_order_array=[1,2,1,3,2,4,3];
+let player_array=[ ];
 
 function greenClick(){
     var change=document.getElementById("change");
@@ -17,3 +20,42 @@ function change(){
     intervalId=setInterval(greenClick, 1000);
     counter=0;
 }
+function check_order(){
+    if (counter_for_colors==correct_order_array.length){
+    for (let i=0;i<counter_for_colors;i++){
+        if (correct_order_array[i]!=player_array[i]){
+            alert("wrong! try again") 
+            counter_for_colors=0
+            player_array=[];
+            return
+        }
+    }
+    alert("right!you saved rapunsel!")
+}
+}
+
+function blue_color(){
+    player_array.push(3);
+    console.log(player_array);
+    counter_for_colors++
+    check_order()
+}
+function green_color(){
+    player_array.push(1);
+    console.log(player_array);
+    counter_for_colors++
+    check_order()
+}
+function pink_color(){
+    player_array.push(2);
+    console.log(player_array);
+    counter_for_colors++
+    check_order()
+}
+function red_color(){
+    player_array.push(4);
+    console.log(player_array);
+    counter_for_colors++
+    check_order()
+}
+console.log(player_array);
