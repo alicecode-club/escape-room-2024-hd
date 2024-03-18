@@ -3,11 +3,11 @@ header.innerHTML =
 `<div id="topbaner">
 <a href="batb1/html" id="webname">The beauty and the beast</a>
 <div align="center" id="buttonsclick">
-    <lable>Screen One</lable>
+    <lableid=l1>Screen One</lable>
     <img src="rose_hint.png" id="clue1" onclick="clue1()"/>
-    <lable>Screen Two</lable>
+    <lable id=l2>Screen Two</lable>
     <img src="rose_hint.png" id="clue2" onclick="clue2()"/>
-    <lable>Screen Three</lable>
+    <lableid=l3>Screen Three</lable>
     <img src="rose_hint.png" id="clue3" onclick="clue3()"/>
 </div>
 <style>
@@ -26,6 +26,9 @@ header.innerHTML =
     width: 7%;
     right: 5%;
     position: absolute;
+    }
+
+    #l1 {
     }
 
     #clue2 {

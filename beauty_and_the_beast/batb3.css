@@ -10,3 +10,31 @@ body {
     right: 25%;
     position: absolute;
 }
+
+#bananapeel {
+    width: 4%;
+    bottom: 10%;
+    right: 50%;
+    position: absolute;
+}
+
+#box {
+    width: 3%;
+    bottom: 18%;
+    right: 65%;
+    position: absolute;
+}
+
+#icecream {
+    width: 6%;
+    bottom: 18%;
+    right: 35%;
+    position: absolute;
+}
+
+#water {
+    width: 3%;
+    bottom: 17%;
+    right: 50%;
+    position: absolute;
+}
