@@ -27,5 +27,11 @@ html{
 	width: 60px;
 	cursor: pointer;
 }
-
+.popup{
+	background-color: aliceblue;
+}
+.colors{
+	height: 40px;
+	width: 40px;
+}
 

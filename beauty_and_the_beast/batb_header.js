@@ -1,13 +1,14 @@
-let header = document.getElementById("");
+let header = document.getElementById("header-comp");
 header.innerHTML =
 `<div id="topbaner">
 <a href="batb1/html" id="webname">The beauty and the beast</a>
 <div align="center" id="buttonsclick">
-    // <button onclick="no()" id="clue1" class="clues">clue1</button>
-    <button onclick="no()" id="clue2" class="clues">clue2</button>
-    <button onclick="no()" id="clue3" class="clues">clue3</button>
-    <button onclick="no()" id="clue4" class="clues">clue4</button>
-    <button onclick="no()" id="clue5" class="clues">clue5</button>
+    <lable>Screen One</lable>
+    <img src="rose_hint.png" id="clue1" onclick="clue1()"/>
+    <lable>Screen Two</lable>
+    <img src="rose_hint.png" id="clue2" onclick="clue2()"/>
+    <lable>Screen Three</lable>
+    <img src="rose_hint.png" id="clue3" onclick="clue3()"/>
 </div>
 <style>
     #webname {
@@ -15,55 +16,31 @@ header.innerHTML =
     }
 
     #topbaner {
-        background-color: rgb(74, 190, 151);
+        background-color: #F8F9C2;
         flex-direction: row;
         height: 60px;
         margin: 10px;
     }
 
-
-    .webuttons {
-        margin: auto;
-        color: white;
-        background-color: rgb(104, 236, 192);
-        border-color:  rgb(98, 220, 179);
+    #clue1 {
+    width: 7%;
+    right: 5%;
+    position: absolute;
     }
 
-    .webuttons:hover, #webname:hover {
-        background-color: rgb(90, 90, 212);
-    }
-    
-    #hamb {
-        display: none;
+    #clue2 {
+        width: 7%;
+        right: 7%;
+        position: absolute;
     }
 
-    @media screen and (max-width:800px){
-        #hamb {
-            display: block;
-            position: absolute;
-            right: 20px;
-        }
-        .webuttons {
-            display: block;
-        }
-        #buttonsclick.responsive {
-            display: block;
-        }
-        #buttonsclick {
-            display: none;
-            position: absolute;
-            width: 50%;
-            height: 100%;
-            top: 10%;
-            background-color: rgb(74, 190, 151); 
-            flex-direction: column;
-            flex-wrap: wrap;
-            right: 0;
-            border-radius: 5px;
-        }
-        .webuttons {
-            width: 100%;
-            padding: 10px;
-        }
+    #clue3 {
+        width: 7%;
+        right: 9%;
+        position: absolute;
     }
+
+    // .webuttons:hover, #webname:hover {
+    //     background-color: rgb(90, 90, 212);
+    // }
 </style>`
