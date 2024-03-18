@@ -1,3 +1,3 @@
 function startgamefun() {
-    window.location.href="batb2.html";
+    window.location.href="../room1/batb2.html";
 } 
