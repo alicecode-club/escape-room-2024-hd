@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="Calculator.css"/>
+    <script src="Calculator.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1> pick 2 numbers bitween 1-100 </h1>
+    <form action="/action_page.php">
+        <label for="math"> number 1 :</label>
+        <input type="number" id="math" name="quantity" min="0" max="100">
+      </form>
+      
+    <form action="/action_page.php">
+        <label for="math"> number 2 :</label>
+        <input type="number" id="math" name="quantity" min="0" max="100">
+      </form>
+
+    <br>
+
+    <button id="multi" onclick="onButtonClick();"> * </button>
+
+    <button id="division" onclick="onButtonClick();"> \ </button>
+
+    <button id="subtract" onclick="onButtonClick();"> - </button>
+
+    <button id="add" onclick="onButtonClick();"> + </button>
+    </br>
+    <br>
+    <input type="submit">
+    </br>
+</body>
+</html>
