@@ -8,3 +8,16 @@ body {
 #headline4 {
   font-family: 'Protest Revolution', sans-serif;
 }
+
+#tangled {
+  background-color: #6b85ce65;
+  border-color: #0400ff5e;
+  border-radius: 50px;
+  height: 50px;
+  width: 170px;
+  font-size: 15px;
+  padding: 0 30px;
+  font-family: 'Cormorant Garamond', serif;
+  display: block;
+  margin-left: 45%;
+}
