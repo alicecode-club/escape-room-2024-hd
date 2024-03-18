@@ -18,4 +18,6 @@ body {
   font-size: 15px;
   padding: 0 30px;
   font-family: 'Cormorant Garamond', serif;
+  display: block;
+  margin-left: 45%;
 }
