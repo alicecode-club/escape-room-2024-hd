@@ -17,7 +17,7 @@ function greenClick(){
 
 function change(){
     console.log("Starting interval");
-    intervalId=setInterval(greenClick, 1000);
+    intervalId=setInterval(greenClick, 500);
     counter=0;
 }
 function check_order(){
