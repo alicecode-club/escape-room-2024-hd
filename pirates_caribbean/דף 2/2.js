@@ -2,6 +2,6 @@
 
 function item1(){
     alert("hi my letter is p"); 
-    const heder = getElementById("letters");
+    const heder = document.getElementById("letters");
     heder.textContent += "p";
 }
