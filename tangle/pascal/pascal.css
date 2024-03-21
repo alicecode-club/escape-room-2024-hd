@@ -17,6 +17,7 @@ html{
 	left: 25vw;
 	width: 60px;
 	cursor: pointer;
+	visibility: visible;
 }
 
 #lock2{
@@ -29,9 +30,17 @@ html{
 }
 .popup{
 	background-color: aliceblue;
+	visibility:hidden;
+	width: 650px;
+	height: 150px;
 }
 .colors{
 	height: 40px;
 	width: 40px;
 }
-
+h3{
+	position: absolute;
+	right: 945px;
+	top: 2px;
+	cursor: pointer;
+}

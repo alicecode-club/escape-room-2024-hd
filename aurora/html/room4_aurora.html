@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../css/room4_aurora.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Tic-Tac-Toe Game</h1>
+
+        <div class="vs-button">
+            <button id="twoPlayers">2 Players</button>
+            <button id="vsComputer">vs Computer</button>
+        </div>
+
+        <div class="game-section two-players" style="display: none;">
+            <small>Player 1 = X || Player 2 = O</small>
+            <div class="game-board">
+                <div class="row">
+                    <div class="cell" onclick="twoPMakeMove(0, 0)"></div>
+                    <div class="cell" onclick="twoPMakeMove(0, 1)"></div>
+                    <div class="cell" onclick="twoPMakeMove(0, 2)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" onclick="twoPMakeMove(1, 0)"></div>
+                    <div class="cell" onclick="twoPMakeMove(1, 1)"></div>
+                    <div class="cell" onclick="twoPMakeMove(1, 2)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" onclick="twoPMakeMove(2, 0)"></div>
+                    <div class="cell" onclick="twoPMakeMove(2, 1)"></div>
+                    <div class="cell" onclick="twoPMakeMove(2, 2)"></div>
+                </div>
+            </div>
+            <p class="winner-text" id="twoPlayersWinnerText"></p>
+        </div>
+
+        <div class="game-section vs-computer" style="display: none;">
+            <small>Player 1 = X || Computer = O</small>
+            <div class="game-board">
+                <div class="row">
+                    <div class="cell" onclick="vsComMakeMove(0, 0)"></div>
+                    <div class="cell" onclick="vsComMakeMove(0, 1)"></div>
+                    <div class="cell" onclick="vsComMakeMove(0, 2)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" onclick="vsComMakeMove(1, 0)"></div>
+                    <div class="cell" onclick="vsComMakeMove(1, 1)"></div>
+                    <div class="cell" onclick="vsComMakeMove(1, 2)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" onclick="vsComMakeMove(2, 0)"></div>
+                    <div class="cell" onclick="vsComMakeMove(2, 1)"></div>
+                    <div class="cell" onclick="vsComMakeMove(2, 2)"></div>
+                </div>
+            </div>
+            <p class="winner-text" id="vsComputerWinnerText"></p>
+        </div>
+
+        <button id="restartButton" onclick="resetBoard()" style="display: none;">Restart Game</button>
+
+
+    </div>
+
+
+
+    <!-- Script JS -->
+    <script src="../js/room4_auroa.js"></script>
+</body>
+</html>

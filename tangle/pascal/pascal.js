@@ -30,7 +30,12 @@ function check_order(){
             return
         }
     }
-    alert("right!you saved rapunsel!")
+    alert("right!you saved Rapunzel!");
+    var lock1=document.getElementById("lock")
+    var lock2=document.getElementById("lock2")
+    lock1.style.visibility="hidden"; 
+    lock2.style.visibility="visible"; 
+
 }
 }
 
@@ -59,3 +64,14 @@ function red_color(){
     check_order()
 }
 console.log(player_array);
+function lock(){
+    var div=document.getElementById("popup");
+    div.style.visibility="visible"; 
+}
+function x(){
+    var div=document.getElementById("popup");
+    div.style.visibility="hidden"; 
+}
+function lock2(){
+    window.location.href="end.html";
+}
