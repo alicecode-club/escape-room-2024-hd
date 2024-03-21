@@ -19,3 +19,10 @@ html{
     left: 7%;
     top: 71.5%;
 }
+
+/* מוסיפה רק שיראו*/
+
+#letters{
+    color:white;
+    font-size: 20px;
+}
