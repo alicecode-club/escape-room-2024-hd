@@ -9,3 +9,20 @@ html{
     background-size:100vw 100vh;
     
 }
+
+
+#item1{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 7%;
+    top: 71.5%;
+}
+
+/* מוסיפה רק שיראו*/
+
+#letters{
+    color:white;
+    font-size: 20px;
+}

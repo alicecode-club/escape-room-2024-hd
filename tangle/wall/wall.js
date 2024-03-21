@@ -38,5 +38,5 @@ function ArrowClick6(){
     var arrow6 = document.getElementById("arrow6");
     arrow6.style.visibility="hidden";
     alert("GOOD JOB! You've helped Flynn Rider climb the high tower!");
-    window.location.href="../tower/castle.html";
+    window.location.href="../hemsheh/hemsheh.html";
 }
