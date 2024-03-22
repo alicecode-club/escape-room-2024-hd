@@ -1,0 +1,17 @@
+body{
+    background-image: url(rapuzal_happy.jpg);
+    background-size:100vw 100vh;
+}
+div{
+    background-color: rgba(145, 61, 224, 0.543);
+    width: 350px;
+    height: 100px;;
+}
+button{
+    color: #3c1f1f;
+	background-color: #eb13aa74;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #0b0a0b8d;
+
+}
