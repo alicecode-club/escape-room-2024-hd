@@ -18,8 +18,55 @@ html{
     position: absolute;
     left: 7%;
     top: 71.5%;
+    
 }
+#item2{
 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 21%;
+}
+#item3{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+    top: 38%;
+}
+#item4{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 70%;
+    top: 63%;
+}
+#item5{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+    top: 89%;
+}
+#item6{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 90%;
+    top: 01%;
+}
+#item7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
 /* מוסיפה רק שיראו*/
 
 #letters{
