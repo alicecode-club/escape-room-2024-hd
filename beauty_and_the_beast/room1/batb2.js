@@ -97,7 +97,7 @@ function checkteapot(id){
 }
 function finished_questions(){
     if (finished1 == true && finished2 == true && finished3 == true){
-        window.location.href="../batb3.html";
+        window.location.href="../room2/batb3.html";
         console.log("hdhdhh")
     }
 }

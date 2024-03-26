@@ -73,5 +73,5 @@ function x(){
     div.style.visibility="hidden"; 
 }
 function lock2(){
-    window.location.href="end.html";
+    window.location.href="../end/end.html";
 }
