@@ -1,0 +1,20 @@
+html{
+	background-image: url("pascalPic.jpg");
+	background-size:100vw 100vh;
+}
+
+div{
+	color: rgb(255, 255, 255);
+	background-color: rgba(240, 248, 255, 0.432);
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.submit {
+	color: #308d39;
+	background-color: #b0ddac;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #30682f;
+
+  }
